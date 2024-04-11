@@ -98,13 +98,19 @@ body {
 .title {
   font-family: "Rubik Doodle Shadow", system-ui; 
    font-size: 50px;
-   color: #37ff00;
+   padding: 05px;
+   border-radius: 10px;
+   color: rgb(64, 255, 0);
+   background-color: rgba(0, 0, 0, 0.7); /* Set the background colour when scrolled below */
   
 } 
 .subtitle {
   font-family: "Quicksand", sans-serif;
   font-size: 25px; 
-  color: rgb(242, 255, 0);
+  background-color: rgba(0, 0, 0, 0.7); /* Set the background colour when scrolled below */
+  padding: 05px;
+  border-radius: 10px;
+  color: rgb(85, 221, 255);
   font-weight: 300;
   font-style: italic;
 }
